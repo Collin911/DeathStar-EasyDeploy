@@ -1,6 +1,14 @@
-# DeathStarBench
+# DeathStar EasyDeploy
 
-Open-source benchmark suite for cloud microservices. DeathStarBench includes five end-to-end services, four for cloud systems, and one for cloud-edge systems running on drone swarms. 
+**DeathStar** is an Open-source benchmark suite for cloud microservices. DeathStarBench includes five end-to-end services, four for cloud systems, and one for cloud-edge systems running on drone swarms. 
+
+**This repo** is a clone of the original (which can be found [here](https://github.com/delimitrou/DeathStarBench.git)) with several script for quick deployment. It is specifically designed for KinD environment.
+
+The usage of wrk2 load generator can be found within the `./wrk2` directory. `README.md` is the official documentation while the `mechanism.md` explains some more specific details.
+
+For each app, find `easyDeploy.sh` within their respective directory for a quick deployment.
+
+Below is the original README of DeathStar.
 
 ## End-to-end Services <img src="microservices_bundle4.png" alt="suite-icon" width="40"/>
 
